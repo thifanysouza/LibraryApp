@@ -23,6 +23,16 @@ public class ProductModel implements Serializable {
     private BigDecimal price;
     @Column(name="sale")
     private Boolean sale;
+    @Column(name="client")
+    private String client;
+
+    public String getClient() {
+        return client;
+    }
+
+    public void setClient(String client) {
+        this.client = client;
+    }
 
     public UUID getId() {
         return id;

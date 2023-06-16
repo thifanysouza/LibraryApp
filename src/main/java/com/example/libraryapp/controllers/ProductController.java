@@ -1,9 +1,7 @@
 package com.example.libraryapp.controllers;
 
 import com.example.libraryapp.dtos.ProductRecordDto;
-import com.example.libraryapp.models.IsbnApi;
 import com.example.libraryapp.models.ProductModel;
-import com.example.libraryapp.repositories.IsbnApiRepository;
 import com.example.libraryapp.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
